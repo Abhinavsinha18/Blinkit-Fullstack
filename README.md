@@ -53,7 +53,11 @@ BlinkIt(formerly Grofers) is an online supermarket application to buy Fruits, Ve
 
 
 ### Built With
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a><a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"> <img src="https://w7.pngwing.com/pngs/649/982/png-transparent-web-development-responsive-web-design-bootstrap-html-web-design-purple-search-engine-optimization-web-design.png" alt="javascript" width="100" height="50"/> </a></p>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a><a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"> <img src="https://w7.pngwing.com/pngs/649/982/png-transparent-web-development-responsive-web-design-bootstrap-html-web-design-purple-search-engine-optimization-web-design.png" alt="javascript" width="100" height="50"/> </a>
+  <img src = "https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png" width="80" height="40" />
+  <img src ="https://brandslogos.com/wp-content/uploads/images/nodejs-logo.png" width="80" height="40" />
+  </p>
+  
 
 
 
