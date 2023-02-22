@@ -114,7 +114,7 @@
 let veg;
 async function products() {
   try {
-    let url = `https://vast-red-anemone-slip.cyclic.app/frozen`;
+    let url = `https://real-plum-coral-belt.cyclic.app/frozen`;
 
     let res = await fetch(url);
 

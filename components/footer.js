@@ -2,8 +2,8 @@ const footerhtml = (src) => {
   return ` <section class=" footer mt-5 p-5">
   <div class="d-flex row ">
           <div class="imgdiv col-xl-7 col-lg-7 col-md-7 col-12">
-                  <img src="https://blinkit.com/b4cc7e700e2784e954a4.png" alt="" class="h-500 w-50" />
-                  <img src="https://blinkit.com/2012a91467aff38d9f8d.png" alt="" class="h-360 w-35" />
+                  <img src="https://media.licdn.com/dms/image/C5633AQGMkQ5kGBC-4g/productpage-image_1128_635/0/1665039482897/letsblinkit_blinkit_image?e=2147483647&v=beta&t=nOUExf1HpBsCjTMOb5Dvn1Gozxk7M1g3miCEZDlUJXg" alt="" class="h-350 w-30" height= "300px"/>
+                  <img src="https://cdn.finshots.app/images/2022/03/blinkit.jpg" alt="" class="h-360 w-35" />
               </div>
           <div class="col-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 col-12 d-flex align-items-center">
               <div>

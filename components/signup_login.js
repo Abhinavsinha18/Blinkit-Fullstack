@@ -1,4 +1,12 @@
-let users = JSON.parse(localStorage.getItem("users")) || [];
+// let users = JSON.parse(localStorage.getItem("users")) || [];
+let users = [];
+const fetchData = async()=>{
+await fetch('https://real-plum-coral-belt.cyclic.app/signup').then((res)=>res.json())
+   .then((d)=>users=d)
+}
+fetchData();
+
+
 // document.getElementById("openlogin").addEventListener("click",
 const openonclick = () => {
   let modal_container = document.getElementById("modal_container");
@@ -96,13 +104,13 @@ function signupPage() {
         <p>Already have an account? </p><button  id="loginPage">Login</button>
     </div>
     `;
-  // console.log("SignUp Clicked!");
   document.getElementById("cancelmodal").addEventListener("click", cancel);
   document.getElementById("signuppp").addEventListener("click", signUp);
   document.getElementById("loginPage").addEventListener("click", loginPage);
 }
 
-function signUp() {
+async function signUp() {
+  console.log(users);
   let name = document.getElementById("name").value;
   let email = document.getElementById("email").value;
   let password = document.getElementById("password").value;
@@ -124,8 +132,13 @@ function signUp() {
     if (flag === true) {
       alert("This email is already exist!");
     } else {
-      users.push(userObj);
-      localStorage.setItem("users", JSON.stringify(users));
+    await fetch('https://real-plum-coral-belt.cyclic.app/signup',{
+      method : "POST",
+      body: JSON.stringify(userObj),
+      headers : {
+        "Content-Type" : "application/json"
+      }
+    })
 
       alert("Signed Up Successfully!");
       document.getElementById("modal_container").innerHTML = `
@@ -196,19 +209,11 @@ function mylocation() {
 
   function success(pos) {
     const crd = pos.coords;
-
-    // console.log("Your current position is:");
-    // console.log(`Latitude : ${crd.latitude}`);
-    // console.log(`Longitude: ${crd.longitude}`);
-    // console.log(`More or less ${crd.accuracy} meters.`);
-
-    // getdatabycurrent();
     getReverseGeocodingData(crd.latitude, crd.longitude);
   }
 
   function error(err) {
-    // alert("Please Allow Location and Reload Page");
-    // console.warn(`ERROR(${err.code}): ${err.message}`);
+
   }
 
   navigator.geolocation.getCurrentPosition(success, error, options);
@@ -219,8 +224,6 @@ function getReverseGeocodingData(lat, lon) {
     try {
       let ans = await fetch(url);
       let ans1 = await ans.json();
-      // console.log(ans1);
-      // console.log();
       document.getElementById(
         "currentcity"
       ).innerHTML = ` Your Current City <b> ${ans1.name} </b> <i class="fa-solid fa-caret-down">`;

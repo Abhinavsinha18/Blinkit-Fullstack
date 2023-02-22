@@ -89,47 +89,4 @@ function signupPage() {
   // console.log("SignUp Clicked!");
 }
 
-function signUp() {
-  let name = document.getElementById("name").value;
-  let email = document.getElementById("email").value;
-  let password = document.getElementById("password").value;
-  if (name === "" || email === "" || password === "") {
-    alert("Please fill all the fields!");
-  } else {
-    let userObj = {
-      name: document.getElementById("name").value,
-      email: document.getElementById("email").value,
-      password: document.getElementById("password").value,
-    };
-    let flag = false;
-    for (let i = 0; i < users.length; i++) {
-      if (users[i].email === userObj.email) {
-        flag = true;
-        break;
-      }
-    }
-    if (flag === true) {
-      alert("This email is already exist!");
-    } else {
-      users.push(userObj);
-      localStorage.setItem("users", JSON.stringify(users));
-      alert("Signed Up Successfully!");
-      document.getElementById("modal_container").innerHTML = `
-            <div id="modals">
-                <div id="cancelBox">
-                <div><button onclick="cancel()" id="cancel">&#215;</button></div>
-                </div>
-                <h2>Sign In</h2>
-                <div id="input_container">
-                    <p>Email</p>
-                    <input type="text" placeholder="Enter email" id="email" class="input">
-                    <p>Password</p>
-                    <input type="password" placeholder="Enter password" id="password" class="input">
-                </div>
-                <button onclick="login()" id="close">Login</button>
-                <p>Don't have an account? <button onclick="signupPage()" id="signupPage">Sign Up</button></p>
-            </div>
-            `;
-    }
-  }
-}
+

@@ -59,7 +59,7 @@ function showChemist() {
   var cor3 = document.getElementById('cor_three')
   var cor_s1 = document.getElementById('couroSlider')
   var chemistData = []
-  fetch('https://blinkit-clone.herokuapp.com/exotic').then((data)=>{
+  fetch('https://real-plum-coral-belt.cyclic.app/exotic').then((data)=>{
     data.json()
     .then((data)=>{
       chemistData = data
@@ -147,7 +147,7 @@ function dairy_products() {
   var cor3 = document.getElementById('d_cor_three')
   var cor_s2 = document.getElementById('couroSlider1')
   var fruitData = []
-  fetch('https://blinkit-clone.herokuapp.com/organic').then((data)=>{
+  fetch('https://real-plum-coral-belt.cyclic.app/organic').then((data)=>{
     data.json()
     .then((data)=>{
       fruitData = data
@@ -235,7 +235,7 @@ function biscuits() {
   var cor3 = document.getElementById('b_cor_three')
   var cor_s3 = document.getElementById('couroSlider2')
   var fruitData = []
-  fetch('https://blinkit-clone.herokuapp.com/fruits').then((data)=>{
+  fetch('https://real-plum-coral-belt.cyclic.app/fruits').then((data)=>{
     data.json()
     .then((data)=>{
       fruitData = data

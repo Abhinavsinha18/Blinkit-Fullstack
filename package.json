@@ -4,7 +4,9 @@
   "description": "<!-- PROJECT LOGO -->\r <a name=\"readme-top\"></a>\r <br />\r <div align=\"center\">\r   <a href=\"https://github.com/CartikKG/Blinkit\">\r     <img src=\"./img/Untitled-1.jpg\" alt=\"logo\" width=\"100\" height=\"50\">\r   </a>",
   "main": "check.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "react-scripts": "5.0.1"
   },
   "repository": {
     "type": "git",
