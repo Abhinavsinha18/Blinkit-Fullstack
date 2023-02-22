@@ -59,7 +59,8 @@ BlinkIt(formerly Grofers) is an online supermarket application to buy Fruits, Ve
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!-- RESPONSIVE -->
+![WhatsApp Image 2023-01-21 at 2 49 44 AM](https://user-images.githubusercontent.com/94513021/220699856-61c492c7-bd4a-45f5-a481-a2520c1cd9db.jpeg)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -87,7 +88,7 @@ This is how we work on project.
 1. Visual Studio Code
 2. Clone the repo
    ```sh
-   git clone https://github.com/CartikKG/Blinkit
+   git clone https://github.com/Abhinavsinha18/Blinkit-Fullstack.git
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
