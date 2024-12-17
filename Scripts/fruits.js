@@ -224,7 +224,7 @@
 let veg;
 async function products() {
   try {
-    let url = `https://real-plum-coral-belt.cyclic.app/fruits`;
+    let url = `https://blinkitdata-1.onrender.com/fruits`;
 
     let res = await fetch(url);
 

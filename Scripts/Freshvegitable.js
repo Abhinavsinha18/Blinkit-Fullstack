@@ -272,7 +272,7 @@
 let veg;
 async function products() {
   try {
-    let url = `https://real-plum-coral-belt.cyclic.app/Freshvegitable`;
+    let url = `https://blinkitdata-1.onrender.com/Freshvegitable`;
 
     let res = await fetch(url);
 

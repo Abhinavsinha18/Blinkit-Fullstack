@@ -114,7 +114,7 @@
 let veg;
 async function products() {
   try {
-    let url = `https://real-plum-coral-belt.cyclic.app/frozen`;
+    let url = `https://blinkitdata-1.onrender.com/frozen`;
 
     let res = await fetch(url);
 
