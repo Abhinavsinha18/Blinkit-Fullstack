@@ -1,7 +1,7 @@
 import data from "./products.json"assert {
   type: 'json'
 };
-let url = "https://blinkit-clone.surge.sh/categories/"
+let url = "https://blinkitdata-1.onrender.com/categories/"
 showTopData()
 showChemist()
 dairy_products()

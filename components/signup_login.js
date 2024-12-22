@@ -1,7 +1,7 @@
 // let users = JSON.parse(localStorage.getItem("users")) || [];
 let users = [];
 const fetchData = async()=>{
-await fetch('https://real-plum-coral-belt.cyclic.app/signup').then((res)=>res.json())
+await fetch('https://blinkitdata-1.onrender.com/signup').then((res)=>res.json())
    .then((d)=>users=d)
 }
 fetchData();
@@ -40,6 +40,7 @@ function cancel() {
 }
 
 function login() {
+  fetchData()
   let email = document.getElementById("email").value;
   let password = document.getElementById("password").value;
   if (email === "" || password === "") {
@@ -132,7 +133,7 @@ async function signUp() {
     if (flag === true) {
       alert("This email is already exist!");
     } else {
-    await fetch('https://real-plum-coral-belt.cyclic.app/signup',{
+    await fetch('https://blinkitdata-1.onrender.com/signup',{
       method : "POST",
       body: JSON.stringify(userObj),
       headers : {

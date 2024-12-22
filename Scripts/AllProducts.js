@@ -33,7 +33,7 @@ const filterBySearch = (data) => {
 };
 
 function display(data) {
-  console.log("data" + data);
+  // console.log("data" + data);
   document.getElementById("result").innerHTML = "";
   data.map(function (ele) {
     let temp = `<div class="inDiv">
